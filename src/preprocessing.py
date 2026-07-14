@@ -5,7 +5,7 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Load dataset
-df = pd.read_csv(BASE_DIR / "dataset" / "Student_performance_data.csv")
+df = pd.read_csv(BASE_DIR / "dataset" / "Student_performance.csv")
 
 print("Original Shape:", df.shape)
 

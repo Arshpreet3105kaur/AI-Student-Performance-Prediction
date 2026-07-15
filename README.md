@@ -105,6 +105,11 @@ The AI model predicts a student's academic performance using the following grade
 | 3 | Below Average |
 | 4 | Poor |
 
+
+## Feature Importance
+
+![Feature Importance](screenshots/feature_importance.png)
+
 ---
 
 ## 👩‍💻 Author

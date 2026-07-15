@@ -92,6 +92,11 @@ or
 * Final Testing
 * Project Submission
 
+
+## Feature Importance
+
+![Feature Importance](screenshots/feature_importance.png)
+
 ---
 
 ## 👩‍💻 Author

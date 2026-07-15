@@ -91,6 +91,19 @@ or
 * IBM Cloud Integration
 * Final Testing
 * Project Submission
+ 
+
+ ## Grade Class Meaning
+
+The AI model predicts a student's academic performance using the following grade classes:
+
+| Grade Class | Performance |
+|-------------|-------------|
+| 0 | Excellent |
+| 1 | Good |
+| 2 | Average |
+| 3 | Below Average |
+| 4 | Poor |
 
 ---
 

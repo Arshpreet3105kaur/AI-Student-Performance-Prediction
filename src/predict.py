@@ -50,7 +50,6 @@ student = pd.DataFrame([[
     "GPA"
 ])
 
-prediction = model.predict(student)
 
 # Grade Class Mapping
 # 0 = Excellent
@@ -59,4 +58,16 @@ prediction = model.predict(student)
 # 3 = Below Average
 # 4 = Poor
 
-print("\nPredicted Grade Class:", prediction[0])
+prediction = model.predict(student)[0]
+
+grade_map = {
+    0.0: "Excellent",
+    1.0: "Good",
+    2.0: "Average",
+    3.0: "Below Average",
+    4.0: "Poor"
+}
+
+print("\n========== RESULT ==========")
+print("Predicted Grade Class:", prediction)
+print("Performance:", grade_map[prediction])

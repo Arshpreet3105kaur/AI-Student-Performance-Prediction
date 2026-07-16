@@ -110,6 +110,13 @@ The AI model predicts a student's academic performance using the following grade
 
 ![Feature Importance](screenshots/feature_importance.png)
 
+## Future Improvements
+
+- Deploy the trained model using IBM watsonx.ai Runtime.
+- Build a web interface for predictions.
+- Collect real-world student data for retraining.
+
+
 ---
 
 ## 👩‍💻 Author
